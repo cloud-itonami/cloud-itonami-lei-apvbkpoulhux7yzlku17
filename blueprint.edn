@@ -2,6 +2,4 @@
  :company/lei "APVBKPOULHUX7YZLKU17"
  :company/jurisdiction "US-DE"
  :company/website "https://www.anteroresources.com"
- :company/ticker "NYSE:AR"
- :itonami.blueprint/robotics false
- :required-technologies [:identity :audit-ledger]}
+ :company/ticker "NYSE:AR"}
