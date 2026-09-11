@@ -48,7 +48,7 @@ Same as the pilot (ADR-2607241900) and the batch (ADR-2607242000).
 ## Run
 
 ```bash
-clojure -M:dev:run     # walk a clean lifecycle + all six HARD-hold checks + a phase-0 hold + a backend swap
-clojure -M:dev:test    # governor contract · phase invariants · store parity · advisor smoke
-clojure -M:lint        # clj-kondo (errors fail; CI mirrors this)
+kbb -M:dev:run     # walk a clean lifecycle + all six HARD-hold checks + a phase-0 hold + a backend swap
+kbb -M:dev:test    # governor contract · phase invariants · store parity · advisor smoke
+kbb -M:lint        # clj-kondo (errors fail; CI mirrors this)
 ```
